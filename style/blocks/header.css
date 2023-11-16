@@ -1,0 +1,132 @@
+
+.header__main {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    color: #f6f6f6;
+    font-size: 16px;
+}
+
+.header__main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    padding-top: 85px;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-li {
+    margin-left: 90px;
+}
+
+.header__menu-li > a {
+    color: #000;
+}
+
+.telephone-main {
+    width: 203px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #96BF09;
+    margin-left: 69px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-weight: 600;
+}
+
+.header__banner {
+    background-color: #f4efef;
+}
+
+.header__banner-block {
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin-top: 100px;
+}
+
+.header__banner-texts {
+    max-width: 700px;
+    flex: 0 1 700px;
+}
+
+.btn__header-banner {
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #96bf09;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header__banner-title {
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.header__banner-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+.banner-img {
+    margin-left: 40px;
+}
+
+.header-not-vh {
+    height: 20vh;
+}
+
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.banner__text-block > a {
+    color: #fff;
+}
+
+.banner__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.banner__title {
+    font-size: 28px;
+    color: #fff;
+}
+
+.banner__text-block {
+    display: flex;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.1%;
+    
+}
